@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc2.css">
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="main">
+        <form>
+            <input class="textview" name="textview">
+
+        </form>
+        <table>
+            <tr>
+                <td><input class="btn-clr" type="button" data-num="C" value="C"></td>
+                <td><input class="btn-del" type="button" data-num="<" value="<"></td>
+                <td><input class="button" type="button" data-num="/"  value="/"></td>
+                <td><input class="button" type="button"  data-num="*" value="*"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" data-num="7" value="7"></td>
+                <td><input class="button" type="button"data-num="8"  value="8"></td>
+                <td><input class="button" type="button"data-num="9"  value="9"></td>
+                <td><input class="button" type="button" data-num="-" value="-"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" data-num="4" value="4"></td>
+                <td><input class="button" type="button" data-num="5" value="5"></td>
+                <td><input class="button" type="button" data-num="6" value="6"></td>
+                <td><input class="button" type="button"data-num="+"  value="+"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" data-num="1"  value="1"></td>
+                <td><input class="button" type="button" data-num="2" value="2"></td>
+                <td><input class="button" type="button" data-num="3" value="3"></td>
+                <td rowspan="2"><input class="btn-equal" style="height: 106;" type="button" data-num="=" value="="></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input class="button" style="width: 106;" type="button" data-num="0" value="0"></td>
+                <td><input class="button" type="button" data-num="." value="."></td>
+                
+            </tr>
+
+        </table>
+    </div>
+    <script src="calc2.js"></script>
+</body>
+
+</html>
